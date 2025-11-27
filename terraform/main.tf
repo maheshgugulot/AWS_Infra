@@ -7,7 +7,7 @@ terraform {
   }
 
  backend "s3" {
-   region = "ap-south-2"
+   region = "ap-south-1"
    key    = "terraform.tfstate"
  }
 }
